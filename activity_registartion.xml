@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registartion"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/register_logo"
+        android:layout_width="214dp"
+        android:layout_height="96dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/bloodlogo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Your Details will be public to the community,by using this app you also need to pledge to be a donor to help those who are in need."
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Name"
+
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Email-id"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/password"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Password"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/number"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Mobile-No"
+        android:inputType="number"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/city"
+        android:layout_marginTop="20dp"
+        android:hint="Enter City"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/blood_group"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Blood Group "
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="295dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:text="Register"
+        android:textColor="#ffff"
+        android:layout_marginLeft="65dp"
+        android:textSize="25dp" />
+
+</LinearLayout>
